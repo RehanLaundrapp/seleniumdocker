@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [some tests]">
+<suite name="Failed suite [some tests]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="first group of tests(failed)">
     <classes>
       <class name="com.MyTest">
         <methods>
+          <include name="testEnterGoogle"/>
           <include name="testEnterReddit"/>
           <include name="testEnterapple"/>
           <include name="setupDriver"/>

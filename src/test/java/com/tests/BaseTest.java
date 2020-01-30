@@ -20,6 +20,7 @@ public class BaseTest {
         // HUB_HOST => localhost / 10.0.1.3 / hostname
 
         String host = "localhost";
+        String myIP = "192.168.1.46";
         DesiredCapabilities dc;
 
         if(System.getProperty("BROWSER") != null &&
@@ -35,7 +36,7 @@ public class BaseTest {
 
         String testName = ctx.getCurrentXmlTest().getName();
 
-        String completeUrl = "http://" + host + ":8085/wd/hub";
+        String completeUrl = "http://" + host + ":8089/wd/hub";
         dc.setCapability("name", testName);
         this.driver = new RemoteWebDriver(new URL(completeUrl), dc);
     }
