@@ -37,6 +37,8 @@ public class BaseTest {
         String testName = ctx.getCurrentXmlTest().getName();
 
         System.out.println("trying to hit GRID at IP: " + host);
+        System.out.println("You have successfully compiled through docker");
+        System.out.println("testing if compile command works");
 
         String completeUrl = "http://" + host + ":4444/wd/hub";
         dc.setCapability("name", testName);

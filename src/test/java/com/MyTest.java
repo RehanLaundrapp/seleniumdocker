@@ -38,5 +38,11 @@ public class MyTest extends BaseTest {
         System.out.println(driver.getTitle());
     }
 
+    @Test
+    public void testGmail() {
+        driver.get("https://www.gmail.com");
+        System.out.println(driver.getTitle());
+    }
+
 
 }
