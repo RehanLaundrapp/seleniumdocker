@@ -36,7 +36,9 @@ public class BaseTest {
 
         String testName = ctx.getCurrentXmlTest().getName();
 
-        String completeUrl = "http://" + host + ":8089/wd/hub";
+        System.out.println("trying to hit GRID at IP: " + host);
+
+        String completeUrl = "http://" + host + ":4444/wd/hub";
         dc.setCapability("name", testName);
         this.driver = new RemoteWebDriver(new URL(completeUrl), dc);
     }

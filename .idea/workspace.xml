@@ -2,25 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70dc5825-12f2-47c4-b66b-ff6c5ebb4bfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/selenium-docker-tests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/selenium-docker-tests.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/selenium-docker.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/selenium-docker.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tests/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/junitreports/TEST-com.MyTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/junitreports/TEST-com.MyTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/some tests/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/some tests/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/some tests/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/some tests/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/some tests/first group of tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/some tests/first group of tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/some tests/first group of tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/some tests/first group of tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/some tests/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/some tests/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/junitreports/TEST-com.MyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/first group of tests.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/some tests/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/some tests/first group of tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/some tests/first group of tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/some tests/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,6 +224,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580312511780</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit from work">
+      <created>1580388544638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580388544638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,5 +246,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit from work" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit from work" />
   </component>
 </project>
