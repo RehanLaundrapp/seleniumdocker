@@ -12,7 +12,7 @@ RUN mvn -f /usr/share/udemy/pom.xml clean package -DskipTests
 #AFter we compile the project, our NEW compiled files are stored in "/usr/share/udemy/target"
 
 FROM openjdk:8u191-jre-alpine3.8
-#RUN apk add curl jq
+RUN apk add curl jq
 
 #Workspace
 WORKDIR /usr/share/udemy
@@ -37,9 +37,10 @@ COPY --from=build /usr/share/udemy/target/libs libs
 ADD rehan-tests.xml rehan-tests.xml
 
 #ADD health check so that we can make sure our selenium hub is ready to accept tests
-#ADD healthcheck.sh healthcheck.sh
+ADD healthcheck.sh healthcheck.sh
 
 #the entry point will execute the command to run the TESTS WHEN selenium hub is ready, look at healthcheck.sh to see the final command
 #this entrypoint will run a command in the WORKDIR folder that you specified.
 #We're passing environment vriables here, which we will add when we run our container.
-ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DBROWSER=$BROWSER -DHUB_HOST=$HUB_HOST org.testng.TestNG $MODULE
+#ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DBROWSER=$BROWSER -DHUB_HOST=$HUB_HOST org.testng.TestNG $MODULE
+ENTRYPOINT sh healthcheck.sh
