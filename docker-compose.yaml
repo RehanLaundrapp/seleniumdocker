@@ -23,7 +23,7 @@ services:
     environment:
       - HUB_HOST=hub
   rehan-test:
-    image: maven_compiling:v23
+    image: maven_compiling:latest
     depends_on:
       - chrome
       - firefox

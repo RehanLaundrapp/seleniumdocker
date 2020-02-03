@@ -16,11 +16,13 @@ buildDocker() {
     --abort-on-container-exit \
     --exit-code-from rehan-test
 }
+
 tearDown() {
+  # Removes continaers and networks
   docker-compose down
 }
 if [[ $1 = "build" ]]; then
   buildDocker
   wait
-  #tearDown
+  tearDown
 fi
