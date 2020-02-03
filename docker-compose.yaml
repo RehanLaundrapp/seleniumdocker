@@ -1,9 +1,15 @@
 version: "3"
 services:
+  angular-rehan:
+    image: angular_rehan:v1
+    ports:
+      - "8788:80"
   hub:
     image: selenium/hub:3.14
     ports:
       - "8089:4444"
+    depends_on:
+      - angular-rehan
   chrome:
     image: selenium/node-chrome:3.14
     depends_on:
@@ -17,8 +23,8 @@ services:
     environment:
       - HUB_HOST=hub
   rehan-test:
-    image: maven_compiling:v22
-    depends_on: 
+    image: maven_compiling:v23
+    depends_on:
       - chrome
       - firefox
     environment:
