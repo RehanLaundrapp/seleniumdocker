@@ -9,7 +9,7 @@ services:
     ports:
       - "8089:4444"
     depends_on:
-      - angular-rehan
+      - angular-demo
   chrome:
     image: selenium/node-chrome:3.14
     depends_on:

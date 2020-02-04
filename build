@@ -14,7 +14,7 @@ buildDocker() {
   #build all images, including angular tests, and run selenium tests
   docker-compose -f docker-compose.yaml up \
     --abort-on-container-exit \
-    --exit-code-from rehan-test
+    --exit-code-from selenium-tests
 }
 tearDown() {
   # Removes continaers and networks
@@ -30,5 +30,5 @@ if [[ $1 = "build" ]]; then
   echo "$(timestamp): Removing Test Dependecies"
   echo "\n==========================="
   tearDown
-  echo "$(timestamp): Go to rehan-test-results for test output"
+  echo "$(timestamp): Go to demo-test-results for test output"
 fi
