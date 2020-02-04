@@ -1,7 +1,7 @@
 version: "3"
 services:
-  angular-rehan:
-    image: angular_rehan:v1
+  angular-demo:
+    image: angular-demo:latest
     ports:
       - "8788:80"
   hub:
@@ -22,7 +22,7 @@ services:
       - hub
     environment:
       - HUB_HOST=hub
-  rehan-test:
+  selenium-tests:
     image: maven_compiling:latest
     depends_on:
       - chrome
