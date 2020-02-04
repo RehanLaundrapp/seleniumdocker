@@ -4,7 +4,6 @@
     <list default="true" id="70dc5825-12f2-47c4-b66b-ff6c5ebb4bfb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build" beforeDir="false" afterPath="$PROJECT_DIR$/build" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580731435707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new changes">
+      <created>1580740449295</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580740449295</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +270,7 @@
     <MESSAGE value="working build, docker compiles this and runs tests successfully" />
     <MESSAGE value="added docker compose" />
     <MESSAGE value="commmited new print statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="commmited new print statement" />
+    <MESSAGE value="new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
   </component>
 </project>

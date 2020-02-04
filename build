@@ -16,13 +16,19 @@ buildDocker() {
     --abort-on-container-exit \
     --exit-code-from rehan-test
 }
-
 tearDown() {
   # Removes continaers and networks
   docker-compose down
 }
 if [[ $1 = "build" ]]; then
+  echo "===========================\n"
+  echo "$(timestamp): Building Docker Image"
+  echo "\n==========================="
   buildDocker
   wait
+  echo "===========================\n"
+  echo "$(timestamp): Removing Test Dependecies"
+  echo "\n==========================="
   tearDown
+  echo "$(timestamp): Go to rehan-test-results for test output"
 fi

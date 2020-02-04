@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Fetching GitHub Repository..."
+echo "\n==========================="
+
+git clone https://github.com/RehanLaundrapp/seleniumdocker.git
+
+echo "===========================\n"
+echo "Repository Found"
+echo "\n==========================="
+
+cd seleniumdocker
+git fetch
+git checkout at_work
+git pull
+
+echo "===========================\n"
+echo "Starting Test Run"
+echo "\n==========================="
+
+sh ./build build
