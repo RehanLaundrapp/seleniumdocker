@@ -30,6 +30,6 @@ services:
     environment:
       - BROWSER=chrome
       - HUB_HOST=hub
-      - MODULE=rehan-tests.xml
+      - MODULE=demo-tests.xml
     volumes:
-      - ./rehan-test-results:/usr/share/udemy/test-output
+      - ./test-results:/usr/share/demo/test-output
