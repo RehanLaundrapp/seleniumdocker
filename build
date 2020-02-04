@@ -30,5 +30,5 @@ if [[ $1 = "build" ]]; then
   echo "$(timestamp): Removing Test Dependecies"
   echo "\n==========================="
   tearDown
-  echo "$(timestamp): Go to demo-test-results for test output"
+  echo "$(timestamp): Go to the test-results on the host machine for test output"
 fi

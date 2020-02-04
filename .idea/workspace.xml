@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70dc5825-12f2-47c4-b66b-ff6c5ebb4bfb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build" beforeDir="false" afterPath="$PROJECT_DIR$/build" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -271,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580821005066</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="changes to docker compose">
+      <created>1580821142425</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580821142425</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,6 +301,7 @@
     <MESSAGE value="added hello-world build script" />
     <MESSAGE value="changed names to demo friendly" />
     <MESSAGE value="using new angular images and changed titles of docker compose services" />
-    <option name="LAST_COMMIT_MESSAGE" value="using new angular images and changed titles of docker compose services" />
+    <MESSAGE value="changes to docker compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to docker compose" />
   </component>
 </project>
